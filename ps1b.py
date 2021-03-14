@@ -35,7 +35,7 @@ while True:
             lower += 1
             re = sum * lower
         break
-T = re
+T = lower
 # please do not modify the input and print statements
 # and make sure that your code does not have any other print statements
 print(T)

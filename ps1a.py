@@ -22,7 +22,7 @@ for i in t:
   step+=1
   if i*sum>B:
     break
-T=i*sum
+T=step
 # please do not modify the input and print statements
 # and make sure that your code does not have any other print statements
 print(T)
