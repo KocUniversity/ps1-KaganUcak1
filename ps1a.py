@@ -22,25 +22,7 @@ for i in t:
   step+=1
   if i*sum>B:
     break
-upper=max(t)
-lower=min(t)
-x= round((upper+lower)/2)
-step=0
-while True:
-  step+=1
-  if sum*x>B:
-    upper=x
-    x= round((upper+lower)/2)
-  elif sum*x<B:
-    lower=x
-    x= round((upper+lower)/2)
-  if abs(upper-lower)<=4:
-    re = sum * lower
-    while (lower*sum-B)<0:
-      lower += 1
-      re= sum*lower
-    break
-T=lower
+T=step
 # please do not modify the input and print statements
 # and make sure that your code does not have any other print statements
 print(T)
